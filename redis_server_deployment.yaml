@@ -29,7 +29,7 @@ spec:
         volumeMounts:
         - name: redis-data
           mountPath: /data
-        command: ["redis-server", "--requirepass", "lofasz"] 
+        command: ["redis-server", "--requirepass", "password"] 
       volumes:
       - name: redis-data
         emptyDir: {}

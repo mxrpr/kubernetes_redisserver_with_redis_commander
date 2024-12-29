@@ -45,7 +45,7 @@ metadata:
   name: redis-commander-config
 data:
   HOSTS: "redis-service.default.svc.cluster.local:6379"
-  PASSWORD: "lofasz" 
+  PASSWORD: "password" 
 
 --- 
 apiVersion: v1
