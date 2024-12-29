@@ -44,7 +44,7 @@ kind: ConfigMap
 metadata:
   name: redis-commander-config
 data:
-  HOSTS: "redis-service.default.svc.cluster.local:6379"
+  HOSTS: "redis://password@redis-service:6379"
   PASSWORD: "password" 
 
 --- 
